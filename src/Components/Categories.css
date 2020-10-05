@@ -1,0 +1,25 @@
+.catPic{
+    text-align: center;
+}
+
+.catPic img{
+    max-width: 100%
+}
+.catTitle {
+    min-height: 60px;
+    padding: 20px;
+    margin-top: -60px;
+    position: relative;
+    color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h6{
+    font-weight: 600;
+    margin: 0;
+    font-size: 20px
+}

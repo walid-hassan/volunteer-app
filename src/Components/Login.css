@@ -1,0 +1,32 @@
+.loginLogo{
+    text-align: center;
+}
+.loginForm {
+    text-align: center;
+    border: 1px solid black;
+    padding: 125px 10px;
+    margin-top: 80px;
+    background-color: white;
+    border-radius: 5px;
+}
+.loginLogo img{
+    max-width: 20%;
+    margin-top: 30px;
+}
+.googleBtn {
+    width: 400px;
+    padding: 7px;
+    border-radius: 30px;
+    background: #fff;
+    border: 1px solid #b7b2b2;
+    font-size: 18px;
+}
+.googleBtn img{
+    max-width: 30px;
+    float: left;
+}
+
+.loginPage{
+    background: #F8FAFC;
+    height: 100vh;
+}

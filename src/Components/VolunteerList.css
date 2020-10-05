@@ -1,0 +1,54 @@
+.active{
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    font-size: 18px;
+    color: #207FEE;
+
+}
+.deactive{
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    font-size: 18px;
+    color: #2d2d2e;
+}
+.userDiv{
+    background: #F5F6FA;
+    padding: 20px;
+    border-radius: 10px;
+    height: 80vh;
+}
+.userSection{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.vlist {
+    background: #F5F6FA;
+    padding: 0px 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: #8a8989;
+    font-weight: 700;
+    font-size: 15px;
+}
+.list{
+    background: #ffffff;
+    padding: 0px 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: #555454;
+    font-weight: 700;
+    font-size: 15px;
+}
+.del img {
+    background: red;
+    max-width: 25px;
+    margin: 7px;
+    padding: 4px;
+    border-radius: 4px;
+}
+.del img:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+#registerForm form{
+    width: 400px;
+}
+#registerForm {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 50px 70px;
+    margin: 80px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+label + .MuiInput-formControl {
+    margin-top: 25px !important
+}
+.resgisterBtn{
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    background: #3F90FC;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 600;
+}

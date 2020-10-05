@@ -1,0 +1,35 @@
+.logo img{
+    max-width: 60%;
+}
+.mainMenu{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.links {
+    margin-right: 3%;
+    font-weight: 700;
+    color: #535151;
+}
+.resgister{
+    background: #3F90FC;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.admin{
+    background: #212122;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.logout{
+    background: #df2453;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
