@@ -52,9 +52,9 @@ function App() {
             <PrivateRoute path="/registration/:id">
               <Register/>
             </PrivateRoute>
-            <Route path="/my-account">
+            <PrivateRoute path="/my-account">
               <Account/>
-            </Route>
+            </PrivateRoute>
             <Route path="/registration-process">
               <RegistrationPrecess/>
             </Route>

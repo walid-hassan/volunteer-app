@@ -37,7 +37,12 @@ const Register = () => {
         headers: {'Content-Type': "application/json"},
         body: JSON.stringify(fulldetails)
     })
-    history.push("/home")   
+    .then(res => res.json())
+    .then(data => {
+        if(data.insertedCount > 0){
+            history.push("/my-account")
+        }
+    })   
   }
     useEffect( () => {
         fetch("https://whispering-castle-44460.herokuapp.com/allCategories")
